@@ -1,0 +1,20 @@
+{
+  "name": "Project-Setup",
+  "version": "1.0.0",
+  "description": "Basic webpage example that includes content describing the various parts of the development process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuhnSteven/Project-Setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KuhnSteven/Project-Setup/issues"
+  },
+  "homepage": "https://github.com/KuhnSteven/Project-Setup#readme"
+}

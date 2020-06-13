@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project Setup</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href=""> -->
+    </head>
+<header id="header">
+    <nav id="navbar">
+        <ul>
+            <li>
+                <header>
+
+                    <img id="header-img"
+                        src="https://stevenkuhndesign.files.wordpress.com/2019/11/cropped-screen-shot-2019-11-07-at-7.40.04-pm.png" />
+                    <h1 id="title">Web Project Setup</h1>
+                </header>
+            </li>
+            <li>
+                <a href="#planning" class="nav-link">Planning</a>
+            </li>
+            <li>
+                <a href="#github" class="nav-link">Github</a>
+            </li>
+            <li>
+                <a href="#node" class="nav-link">Node</a>
+            </li>
+            <li>
+                <a href="#html_setup" class="nav-link">HTML Setup</a>
+            </li>
+            <li>
+                <a href="#tips_&_plugins" class="nav-link">Tips & Plugins</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main-doc">
+    <section class="main-section" id="planning">
+        <header>
+            <h1>Planning</h1>
+        </header>
+        <p>When creating a new project, it's important to establish what the important needs are: tools, design, and
+            client-needs. Each requires specific solutions and countless articles have been written on the topic of each
+            subject.</p>
+        <p>Before worrying about how a website will look coding-wise, it is usually best to create 'wireframes' with a
+            program like Adobe XD. This allows for more active planning of the design, like how large certain components
+            should be or color combinations.</p>
+        <p>Useful steps for project management:</p>
+        <ul>
+            <li>Trello Board for tracking activity</li>
+            <li>ReadMe or Documentation for requirements</li>
+            <li>Plan for: Marketing, Technology, Colors & Fonts, etc</li>
+            <li>Structure html for accessibility, design for responsiveness</li>
+        </ul>
+    </section>
+
+    <section class="main-section" id="github">
+        <header>
+            <h1>Github</h1>
+        </header>
+        <p>Github <a href="https://education.github.com/git-cheat-sheet-education.pdf">Cheat Sheet</a></p>
+        <p>Github Repository Setup Steps:</p>
+        <ul>
+            <li>On either on Github.com or the application, create a new repository.</li>
+            <li>Clone the new repo to the desktop working environment.</li>
+            <li>Open a new terminal, either from folder (shortcut ?) or Developer Environment (Ctrl + Cmd + T for
+                Steve's Visual Studio Code)</li>
+            <li>To setup a basic node project, <code>npm init -y </code>, -y automates through the setup questions.</li>
+            <li>Alternatively, <code>npx create-react-app PROJECT-NAME</code> spins up a new base react-app, with the
+                'PROJECT-NAME' as the name of the folder and thereby project.</li>
+        </ul>
+    </section>
+
+    <section class="main-section" id="node">
+        <header>
+            <h1>Node</h1>
+        </header>
+        <p>React <a href="https://reactjs.org/docs/getting-started.html">Getting Started Guide</a></p>
+        <p>Suggested project dependencies</p>
+        <ul>
+            <li>React project: <code>npm i react-redux react-router-prop-types react-scripts</code></li>
+            <li>Redux project: <code>npm i proptypes redux redux-logger redux-thunk</code></li>
+            <li>Project design: <code>npm i bootstrap reactstrap react-icons</code></li>
+            <li>Multi-page project: <code>npm i express axios </code></li>
+            <li>Users project: <code>npm i uuid jsonwebtoken jwtdecode </code></li>
+            <li>When ready to test code, <code>npm start</code> from within the main project folder. If project utilizes
+                multiple servers, new scripts to run them concurrently will be necessary.</li>
+        </ul>
+
+        <p>To be added later: eslint</p>
+    </section>
+
+    <section class="main-section" id="html_setup">
+        <header>
+            <h1>HTML Setup</h1>
+        </header>
+        <p>Paragraph</p>
+        <p>basic parts of an html file</p>
+        <ul>
+            <li>Head - file detail location, includes title and meta tags, not inlcuded with a </li>
+            <li>Header - Top of the page typically, may contain navigation-links, text, logo, slogan, and more.</li>
+            <ul>
+                <li>Image - logo, background, account icon, icons, etc</li>
+                <li>Nav - holder for links</li>
+            </ul>
+            <li>Main - container for overall content</li>
+            <ul>
+                <li>Body - majority of the content, typically the primary focus</li>
+                <ul>
+                    <li>ul / ol & li - (un-)ordered list, and list-item which represents each item in a list</li>
+                    <li>link (a) - can reference an internal (src) or external (href) link</li>
+                </ul>
+                <li>div - container, often the primary causality of div-itis.</li>
+                <li>Section - portion of content that holds smaller content</li>
+                <ul>
+                    <li>Article - smaller portion, typically holds text and images</li>
+                    <li>Card - smallest(?) portion</li>
+                    <li>Paragraph - text field</li>
+                </ul>
+            </ul>
+            <li>Footer - Bottom of the page (probably, I'm not your boss)</li>
+        </ul>
+    </section>
+
+    <section class="main-section" id="tips_&_plugins">
+        <header>
+            <h1>Tips & Plugins</h1>
+        </header>
+        <p>Plugins:</p>
+        <ul>
+            <li>HTML Boilerplate: type out html-boilerplate (in a tag) to fill out a basic html setup</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <h1>Footer</h1>
+</footer>
+</html>
